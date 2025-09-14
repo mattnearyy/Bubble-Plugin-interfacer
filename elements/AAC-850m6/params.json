@@ -1,0 +1,37 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 400,
+        "width": 400
+    },
+    "display": "Interfacer",
+    "events": {
+        "AAI": {
+            "caption": "Interfacer event",
+            "name": "interfacer_event"
+        }
+    },
+    "fields": {
+        "AAD": {
+            "caption": "Output 1",
+            "editor": "custom_type",
+            "name": "output_1",
+            "rank": 0,
+            "value": "_any_thing"
+        },
+        "AAH": {
+            "caption": "test",
+            "editor": "DynamicValue",
+            "name": "test",
+            "rank": 1,
+            "value": "custom_data_AAD"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    }
+}
